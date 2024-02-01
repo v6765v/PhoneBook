@@ -131,6 +131,7 @@ def modify_contact(file_name):
 
         print("Контакт успешно изменен")
     main(file_name)
+    
 def delete_contact(file_name):
     contact_ = input("Введите данные контакта, который вы хотите удалить: ")
     contacts = []
